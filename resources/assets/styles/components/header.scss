@@ -1,0 +1,38 @@
+.header {
+  background-color: #1f464d;
+  padding: 15px 0;
+  &__links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-right: 55px;
+      position: relative;
+      a {
+        color: #fff;
+        font-weight: 300;
+        animation-delay: 1s;
+        text-decoration: none;
+        &:hover {
+          &:after {
+            opacity: 1;
+            bottom: -7px;
+          }
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: -15px;
+          left: 0;
+          height: 1px;
+          background: #fff;
+          transition: 0.3s;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
