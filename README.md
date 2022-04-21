@@ -1,5 +1,9 @@
 # Jack Jackson Project
 
+# Use SAAS, SCSS
+
+# Use BEM
+
 Install project components - sudo yarn install (for Macos) or yarn install (for Windows)
 
 <h2 align="center">Install</h2>
